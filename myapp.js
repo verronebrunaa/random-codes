@@ -9,3 +9,5 @@ app.get('/route/', (req, res) => { // here we defined the route and the callback
 app.listen(port, () => { // here we start the server
     console.log(`Example app listening at http://localhost:${port}`); // here we log the port
 });
+
+//execute the command node myapp.js and open the browser at http://localhost:3000/route/ to see the result 
